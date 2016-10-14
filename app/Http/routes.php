@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-	echo 222;
+	echo 6666;
 });
 
 
