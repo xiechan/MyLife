@@ -280,11 +280,10 @@
                 <div class="contact-info bottom">
                     <h2>Contacts</h2>
                     <address>
-                        E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br>
+                        E-mail: <a href="mailto:chan.xie@qq.com">chan.xie@qq.com</a> <br>
                         Phone: +1 (123) 456 7890 <br>
                         Fax: +1 (123) 456 7891 <br>
                     </address>
-
                     <h2>Address</h2>
                     <address>
                         Unit C2, St.Vincent's Trading Est., <br>
@@ -315,7 +314,7 @@
             </div>
             <div class="col-sm-12">
                 <div class="copyright-text text-center">
-                    <p>&copy; Your Company 2014. All Rights Reserved.</p>
+                    <p>&copy; 2016 vivanlife All Rights Reserved.</p>
                     <p>Designed by <a target="_blank" href="http://www.themeum.com">Vivian</a></p>
                 </div>
             </div>
