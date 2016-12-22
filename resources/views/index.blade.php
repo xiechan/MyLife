@@ -6,22 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | Triangle</title>
-    <link href="{{ URL::asset('/') }}bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ URL::asset('/') }}bootstrap/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ URL::asset('/') }}bootstrap/css/animate.min.css" rel="stylesheet">
-    <link href="{{ URL::asset('/') }}bootstrap/css/lightbox.css" rel="stylesheet">
-    <link href="{{ URL::asset('/') }}bootstrap/css/main.css" rel="stylesheet">
-    <link href="{{ URL::asset('/') }}bootstrap/css/responsive.css" rel="stylesheet">
+    <link href="{{ URL::asset('/') }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ URL::asset('/') }}/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ URL::asset('/') }}/bootstrap/css/animate.min.css" rel="stylesheet">
+    <link href="{{ URL::asset('/') }}/bootstrap/css/lightbox.css" rel="stylesheet">
+    <link href="{{ URL::asset('/') }}/bootstrap/css/main.css" rel="stylesheet">
+    <link href="{{ URL::asset('/') }}/bootstrap/css/responsive.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-    <script src="{{ URL::asset('/') }}bootstrap/js/html5shiv.js"></script>
-    <script src="{{ URL::asset('/') }}bootstrap/js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="{{ URL::asset('/') }}bootstrap/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('/') }}bootstrap/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ URL::asset('/') }}bootstrap/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ URL::asset('/') }}bootstrap/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="{{ URL::asset('/') }}bootstrap/images/ico/apple-touch-icon-57-precomposed.png">
+
 </head><!--/head-->
 
 <body>
@@ -52,7 +44,7 @@
                 </button>
 
                 <a class="navbar-brand" href="index.html">
-                    <h1><img src="images/logo.png" alt="logo"></h1>
+                    <h1><img src="{{ URL::asset('/') }}/bootstrap/images/logo.png" alt="logo"></h1>
                 </a>
 
             </div>
@@ -324,14 +316,13 @@
             <div class="col-sm-12">
                 <div class="copyright-text text-center">
                     <p>&copy; Your Company 2014. All Rights Reserved.</p>
-                    <p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
+                    <p>Designed by <a target="_blank" href="http://www.themeum.com">Vivian</a></p>
                 </div>
             </div>
         </div>
     </div>
 </footer>
 <!--/#footer-->
-
 <script type="text/javascript" src="{{ URL::asset('/') }}bootstrap/js/jquery.js"></script>
 <script type="text/javascript" src="{{ URL::asset('/') }}bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ URL::asset('/') }}bootstrap/js/lightbox.min.js"></script>
