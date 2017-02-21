@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+//    echo 1111;exit();
 	return view('index');
 });
 
