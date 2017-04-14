@@ -11,10 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-//    echo 1111;exit();
-	return view('index');
-});
+Route::get('/','TestController@test');
+
+//Route::get('/', function () {
+////    echo 1111;exit();
+//	return view('index');
+//
+//
+//});
 
 
 /*
