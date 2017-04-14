@@ -24,7 +24,9 @@ class TestController extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         $ticket = curl_exec($ch);
         curl_close($ch);  //获取ticket
-        print_r($ticket);exit();
+        print_r($ticket);
+        echo 222;
+        exit();
     }
 }
 
