@@ -10,6 +10,7 @@ class TestController extends Controller
 {
     //
     public function  test(){
+//        echo 1111;
         $url = "https://api.weibo.com/oauth2/access_token";
         $curl_post = array(
             'client_id' => '1002574916',
@@ -25,7 +26,7 @@ class TestController extends Controller
         $ticket = curl_exec($ch);
         curl_close($ch);  //获取ticket
         print_r($ticket);
-        echo 222;
+//        echo 222;
         exit();
     }
 }
